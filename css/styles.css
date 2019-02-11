@@ -31,10 +31,11 @@ hr {
   border-color: #EAF6F6;
   border-width: 6px;
   width: 5%;
+  margin: 100px auto;
 }
 
 .top-container {
-  background-color: #ffba5a;
+  background-color: #EAF6F6;
   position: relative;
   padding: 100px;
 
@@ -50,7 +51,23 @@ hr {
 
   position: relative;
   padding: 5px;
+  background-color: #66BFBF;
+}
 
+.samehahmed{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.icon{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+}
+.icon-made-by{
+  text-decoration: none;
+}
+.icon-made-by:hover{
+  color: #EAF6F6;
 }
 .skill-row {
   width: 50%;
@@ -77,7 +94,7 @@ hr {
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 100px;
   bottom: 300px;
 }
 
@@ -126,11 +143,12 @@ hr {
   -webkit-box-shadow: 7px 6px 11px #666666;
   -moz-box-shadow: 7px 6px 11px #666666;
   box-shadow: 7px 6px 11px #666666;
-  font-family: Arial;
+  font-family: 'Montserrat', sans-serif;
   color: #ffffff;
   font-size: 27px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+
 }
 
 .btn:hover {
@@ -141,4 +159,22 @@ hr {
   background-image: -o-linear-gradient(top, #fc5c3c, #ffc285);
   background-image: linear-gradient(to bottom, #fc5c3c, #ffc285);
   text-decoration: none;
+}
+
+.contact-me{
+padding-bottom:50px;
+}
+.freelance{
+  margin: auto auto 20px auto;
+  width: 30%
+}
+
+.footer-link{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+.footer-link:hover{
+  color: #EAF6F6;
 }
